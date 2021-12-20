@@ -103,8 +103,9 @@ nav li:hover :after{
     font-weight: 500;
 }
 
-nav li + li {
-    margin-left: 2rem;
+.nav__menu{
+    gap: 2em;
+    font-size: 0.844rem;
 }
 
 li a {

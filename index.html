@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/main.css"/>
     <link rel="stylesheet" href="./css/layouts.css"/>
     <link rel="stylesheet" href="./css/styles.css"/>
+
+    
 </head>
 <body>
     <header id="start">
@@ -21,20 +23,33 @@
                     class="logo circle"/>
 
                 <span  class="logo-text">Dagem Tadesse</span>
+
+                <button class="btn mobile--only">
+                    <img src="./images/hamburger.svg" alt="" srcset="">
+                </button>
   
             </section>
 
-            <ul class="nav-menu">
-                <li> <a class="active" href="./index.html">Home</a> </li>
+            
 
-                <li> <a href="./contact.html">Contact</a> </li>
+            <div class="wrapper wrapper--end hidden">
 
-                <li> <a href="./blog.html">Blog</a> </li>
-            </ul>
+                <ul class="nav__menu">
+                    <li> <a class="active" href="./index.html">Home</a> </li>
+                    <li> <a href="./aboutme.html">About Me</a> </li>
+                    <li> <a href="./contact.html">Contact</a> </li>
+    
+                    <li> <a href="./blog.html">Blog</a> </li>
+                    
+                    <li> <a href="./projects.html">Project</a> </li>
+                    <li> <a href="./project-features.html">Features</a> </li>
+                </ul>
+            </div>
+
         </nav>
 
-        <div class="hero">
-            <div class="container spacer-s flex vert-mid hero-content">
+        <div class="hero spacer-s">
+            <div class="container  flex vert-mid hero-content">
                 <div class="flx-1">
                 
                     <h1 class="heading">Welcome to my website!</h1>
@@ -115,5 +130,7 @@
             
         </div>
     </footer>
+
+    <script src="./js/animation.js"></script>
 </body>
 </html>
