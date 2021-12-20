@@ -1,0 +1,52 @@
+.socials img{
+    width: 2.3rem;
+}
+
+
+.title{
+    font-weight: 300;
+    margin: 0.83em 0;
+    font-size: 1.5em;
+}
+
+blockquote{
+    margin: 1em 0;
+}
+
+blockquote {
+    font-weight: 400;
+}
+
+.handle{
+    font-weight: 600;
+}
+
+.comment{
+    background-color: var(--secondary);
+}
+
+.comment textarea{
+    display: block;
+}
+
+.comment input{
+    padding: 0.722em 0.845em;
+    width: calc((100% - 5px)/2);
+}
+
+.comment input, textarea{
+    border: 1px solid #ced6ff;
+}
+
+.wrapper + .wrapper{
+    margin-top: 0.834rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.wrapper > *:not(input) {
+    width: 100%;
+}

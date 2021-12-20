@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 18px;
+
+    --primary: #1a659e;
+    --on-primary: #fff;
+    --primary-dark: #3D4756;
+    --secondary: #F2FAFF;
+    --on-secondary: #000;
+/* 
+    --primary: #4caf50;
+    --on-primary: #fff;
+    --primary-dark: #2f2e41;
+    --secondary: #edf2fb;
+    --on-secondary: #000; */
+
+    --card-blue: #00CDA2;
+    --card-green: #F9F871;
+    --card-blue-green: #93E783;
+/* 
+    --card-blue: #8ecae6;
+    --card-green: #d9ed92;
+    --card-blue-green: #b7e4c7; */
+}
+
+* {
+    box-sizing: inherit;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+label{
+    display: none;
+}
+body, ul, li {
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    font-size: 0.834rem;
+    font-weight: 300;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.vert-mid{
+    align-items: center;
+    gap: 1rem;
+}
+
+.center {
+    justify-content: center;
+}
+
+.sb {
+    justify-content:space-between;
+}
+
+.gap-md{
+    gap: 2em;
+}
+
+.gap-s{
+    gap: 1.2em;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li :after{
+    content: " ";
+    display: block;
+    height: 2.5px;
+    transition: background .5s;
+}
+
+nav li:hover :after{
+    background: var(--primary);
+}
+
+.active{
+    font-weight: 500;
+}
+
+nav li + li {
+    margin-left: 2rem;
+}
+
+li a {
+    height: 100%;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+header {
+    background-color: var(--secondary);
+    color: var(--on-secondary)
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.logo {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.logo-small {
+   max-width: 30px;
+   max-height: 30px; 
+   filter: inherit(0.65);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.flx-1{
+    flex: 1;
+    max-width: calc(50% - 2em);
+}
+
+.light{
+    font-weight: 200;
+    font-size: 0.875rem;
+}
+
+.heading{
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container p + p {
+    margin-top: 1rem;
+}
+.spacer-s{
+    padding: 1.5em 1.5em; 
+}
+
+.spacer-m{
+    padding: 3.5em 1.5em; 
+}
+
+.container + .container{
+    padding-top: 0;
+}
+
+.hero-img{
+    max-width: 45vw;
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+    padding: .5rem 1.25rem;
+    color: var(--on-primary);
+}
+
+.cta{
+    padding: 0;
+}
+.btn-primary{
+    border: 2px solid var(--primary);
+    
+    border-radius: 4px;
+
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+.solid{
+    background-color: var(--primary);
+}
+
+.solid:hover{
+    background-color: var(--primary);
+}
+
+.border{
+    color: var(--primary);
+}
+
+.btn > a{
+    height: 100%;
+    padding: .5rem 1.25rem;
+    display: block;
+}
+
+.border:hover{
+    background-color: var(--primary) ;
+    color: #fff;
+}
+
+
+
+.a-txt{
+    font-size: 0.834rem;
+    color: #fff;
+}
+
+.a-img img{
+    transform: translateY(35%);
+}
+
+.mt-small {
+    margin-top: 0.834rem;
+}
+
+.ml-medium {
+    margin-left: 0.834rem;
+}
+
+.card{
+    width: 16.67rem;
+    background: #fff;
+    border-radius: 3.5px;
+    border: 1px solid #dfdcdc;
+    filter: drop-shadow(1px 1px 2px #eee);
+}
+
+.card-image.card-1{
+    background-color: var(--card-blue-green);
+}
+
+.card-image.card-2{
+    background-color: var(--card-green);
+}
+
+.card-image.card-3{
+    background: var(--card-blue);
+}
+
+.card-image{
+    overflow: hidden;
+    height: 13.887rem;
+}
+
+.card-image img {
+    width: 16.67rem;
+}
+
+.card-desc{
+    font-size: 0.834rem;
+    text-align: center;
+    padding: 0.35em 0.45em;
+    font-weight: 300;
+    color: #1c1c1c;
+}
+
+
+
+footer{
+    background-color: var(--primary-dark);
+    color: #fff;
+}
