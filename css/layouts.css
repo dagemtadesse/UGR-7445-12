@@ -154,7 +154,7 @@
     content: " ";
     min-width: 24px;
     min-height: 24px;
-    background-image: url("/images/bullet-style.svg");
+    background-image: url("./images/bullet-style.svg");
     background-repeat: no-repeat;
     background-position: center right;
     display: block;

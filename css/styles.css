@@ -12,7 +12,7 @@
 }
 
 .hero-content{
-    background-image: url("/images/hero.svg");
+    background-image: url("./images/hero.svg");
     background-repeat: no-repeat;
     background-size: 45vw;
     background-position-x: 85%;
