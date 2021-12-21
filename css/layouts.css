@@ -5,7 +5,7 @@
     flex-direction: row;
 }
 
-.collumn{
+.column{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -85,12 +85,10 @@
     justify-content: center;
     gap: 2rem;
 }
-
 .project__picture{
     flex: 2;
     padding: 5px;
 }
-
 .project__picture img{
     max-width: 280px;
     display: block;
@@ -104,8 +102,7 @@
     border-radius: 12px;
     display: inline-flex;
 }
-
-.store__img{
+.btn__img{
     align-self: center;
 }
 
@@ -118,11 +115,9 @@
     font-size: 0.833rem;
     text-transform: capitalize;
 }
-
 .project__info > * + * {
     margin-top: 1.2em;
 }
-
 .project__info{
     flex: 3;
 }
