@@ -37,7 +37,7 @@
     flex-wrap: wrap;
 }
 
-@media screen  and (max-width: 960px){
+@media screen  and (max-width: 900px){
     .mobile{
         flex-direction: column;
         gap: 2em;
@@ -61,6 +61,39 @@
     .mobile{
        flex-direction: column;
        gap: 1.2em;
+    }
+
+    .project-table__active{
+        text-align: start;
+    }
+
+    .project-table__active:before{
+        content: "Active: ";
+    }
+
+    table{
+        border-color: #d4d4d4;
+    }
+
+    tbody tr td:first-child{
+        font-weight: 400;
+        font-size: 01rem;
+    }
+
+    td,tr{
+        display: block;
+    }
+
+    thead{
+        /* visibility: hidden; */
+        position: absolute;
+        top: -100%;
+    }
+
+
+
+    .project-table__head{
+        display: block;
     }
 
     nav .wrapper{

@@ -10,6 +10,7 @@
     --on-primary: #fff;
     --primary-dark: #3D4756;
     --secondary: #F2FAFF;
+    --secondary-variant: #dee5f191;;
     --on-secondary: #000;
 /* 
     --primary: #4caf50;
@@ -110,6 +111,10 @@ li a {
 header {
     background-color: var(--secondary);
     color: var(--on-secondary)
+}
+
+input[type="checkbox"]{
+    filter: invert(100%) hue-rotate(18deg) brightness(2.7);
 }
 
 .circle{

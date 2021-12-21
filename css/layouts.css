@@ -305,3 +305,39 @@ blockquote {
 .wrapper--center > *:not(input) {
     width: 100%;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* background-color: var(--secondary); */
+    border: 1px solid #f2f2f3;
+    font-size: 0.722rem;
+    font-weight: 300;
+}
+
+thead{
+    background-color: var(--secondary-variant);
+    color: var(--on-secondary);
+    font-size: 0.844rem;
+    
+}
+
+td, th{
+    padding: 0.5em 1em;
+}
+
+th{
+    text-align: start;
+    font-weight: 400;
+}
+
+tr:nth-child(2n ){
+    background-color: var(--secondary-variant);
+}
+
+.project-table__active{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
