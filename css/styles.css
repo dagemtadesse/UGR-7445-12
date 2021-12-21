@@ -46,6 +46,11 @@
     .wrapper--end{
         justify-content: center;
     }
+
+    .nav__menu{
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
 @media screen  and (max-width: 768px){
