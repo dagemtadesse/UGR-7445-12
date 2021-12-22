@@ -25,14 +25,25 @@
 }
 
 .blog__caption{
+    margin: .5rem 0 0;
+} 
+
+figure{
     width: 100%;
     max-height: 65vh;
     overflow: hidden;
-    margin: .5rem 0 1.2rem;
+}
+ .blog__image-caption{
+    width: inherit;
+    /* object-fit: contain; */
+    max-height: calc(65vh - 2.5rem);
 }
 
-.blog__image-caption{
-    width: inherit;
+figcaption{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.722rem;
+    text-align: center;
 }
 
 .blog__content{

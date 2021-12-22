@@ -14,13 +14,13 @@ bttn.addEventListener('click', () => {
         menu.classList.remove("shown")
         
         // wait for the animation to finish
-        setTimeout(() => ChangeIcon(hamburgerIcon), 300)
+        setTimeout(() => ChangeIcon(hamburgerIcon), 150)
     }else{
         menu.classList.add("shown")
         menu.classList.remove("hidden")
 
         // wait for the animation to finish
-        setTimeout(() => ChangeIcon(closeIcon), 300)
+        setTimeout(() => ChangeIcon(closeIcon), 150)
     }
 })
 
