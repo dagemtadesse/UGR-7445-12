@@ -28,15 +28,15 @@
     margin: .5rem 0 0;
 } 
 
-figure{
-    width: 100%;
-    max-height: 65vh;
+.crop{
     overflow: hidden;
+    max-height: 70vh;
 }
+
+
  .blog__image-caption{
-    width: inherit;
-    /* object-fit: contain; */
-    max-height: calc(65vh - 2.5rem);
+    width: 100%;
+
 }
 
 figcaption{
